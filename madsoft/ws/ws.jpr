@@ -1,0 +1,62 @@
+;JBuilder -- PROJECT FILE VERSION {1.04} - do not alter this line!
+;--- main project settings
+[Project]
+Name=ws.jpr
+DefaultDir=.
+ProjectHtml=
+UseJavaDefaults=0
+ClassPath=\JBuilder\lib\jbcl.zip;\JBuilder\lib\jgl.zip;\JBuilder\java\lib\classes.zip;..\..\..\classes
+SourcePath=\JBuilder\java\src.zip;\JBuilder\src\jgl-src.zip;\JBuilder\src\jbcl-src.zip;..\..\..\classes
+OutPath=..\..\..\classes
+DefaultRunnable=.\ws_start.java
+DebugInfo=1
+CheckStable=0
+ShowWarnings=0
+ExcludeClass=
+Encoding=null
+Parameters=127.0.0.1 8080 / 250
+JavaVMParameters=-ms16m -noclassgc
+CompileFirst=1
+UseExecutionLog=0
+
+;--- Project contents
+[Contents]
+file:///.\AbstractFileResponser.java
+file:///.\AdminServer.java
+file:///.\Cfg.java
+file:///.\CGIApplet.java
+file:///.\CGIResponser.java
+file:///.\FileClassLoader.java
+file:///.\FileResponser.java
+file:///.\HTTP.java
+file:///.\HTTPMethod.java
+file:///.\HTTPMethodGET.java
+file:///.\HTTPMethodHEAD.java
+file:///.\Log.java
+file:///.\MIMEContent.java
+file:///.\WWWServer.java
+file:///.\SysResponser.java
+file:///.\WebResponser.java
+file:///.\ws_start.java
+file:///.\QueryStringParser.java
+file:///.\Ws.ini
+file:///.\Ws-restrictions.ini
+file:///.\IPRestrictManager.java
+file:///.\RestrictManager.java
+file:///.\WS-mime.ini
+file:///.\WWWClient.java
+file:///.\HTTPMethodOPTIONS.java
+file:///.\HTTPMethodPOST.java
+file:///.\ProcResponser.java
+file:///.\WSCMDExecutor.java
+file:///.\SysOutofrootResponser.java
+file:///.\SysCGIErrorResponser.java
+file:///.\SysFilenotfoundResponser.java
+file:///.\SysHTTPerrorResponser.java
+file:///.\SysNotimplementedResponser.java
+file:///.\SysBadrecuestResponser.java
+
+[Params]
+DefaultPackage=madsoft.ws
+
+;--- DONE

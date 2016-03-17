@@ -1,0 +1,42 @@
+;JBuilder -- PROJECT FILE VERSION {1.04} - do not alter this line!
+;--- main project settings
+[Project]
+Name=exporter.jpr
+DefaultDir=.
+ProjectHtml=
+UseJavaDefaults=0
+ClassPath=..\..\..\classes;\JBuilder\lib\jbcl.zip;\JBuilder\lib\jgl.zip;\JBuilder\java\lib\classes.zip
+SourcePath=\JBuilder\myprojects;\JBuilder\java\src.zip;\JBuilder\src\jgl-src.zip;\JBuilder\src\jbcl-src.zip
+OutPath=..\..\..\WORK
+DefaultRunnable=
+DebugInfo=1
+CheckStable=0
+ShowWarnings=0
+ExcludeClass=
+Encoding=
+Parameters=
+JavaVMParameters=
+CompileFirst=1
+UseExecutionLog=0
+
+;--- Project contents
+[Contents]
+file:///.\AbstractExporter.java
+file:///.\FontStyle.java
+file:///.\ParagraphFormats.java
+file:///.\TextExporter.java
+file:///.\HTMLColors.java
+file:///.\HTMLFont.java
+file:///.\TextHTMLExporter.java
+file:///.\HTMLExporter.java
+file:///\wsroot\cgi-bin\count.java
+file:///\wsroot\cgi-bin\cal.java
+
+[Params]
+Title=Your Product Name
+Author=Your Name
+Company=Your Company
+Copyright=Copyright (c) 1997
+Description=Your description
+
+;--- DONE

@@ -1,0 +1,69 @@
+<HTML>
+<HEAD>
+</HEAD>
+<BODY text = "#DDDDDD" bgcolor = "#000055">
+<H1 align = center><a HRef = "http://127.0.0.1:8080/">Project Octarion</a></h1>
+<H2 align = center>Java Based Web Server</h2>
+<hr>
+<h3 align = center>Object hyerarchie</h3>
+<hr>
+<pre>
+(8)-+-CMDExecutor--------WSCMDExecutor
+    |
+    +-CMD(i)-------------[All_Admin_Server_Commands]
+    |
+    +-TCPServer(8)-----+-AdminServer
+    |                  |
+    |                  +-WWWServer
+    |                  |
+    |                  +-AWS
+    |
+    +-TCPClient(8)-----+-TelnetClient-------AdminClient
+    |                  |
+    |                  +-WWWClient
+    |                  |
+    |                  +-AWC
+    |
+    +-RestrictManager(i)-IPRestrictManager
+    |                  |
+    |                  +-[user_RestrictManagers_here]
+    |
+    +-HTTP-------------+-HTTPMethod(8)----+-HTTPMethodGET
+                       |                  |
+                       |                  +-HTTPMethodHEAD
+                       |                  |
+                       |                  +-[Another_Methods_Here]
+                       |
+                       +-WebResponser(8)--+-SysResponser------------[Some_err_msg_responsers_here]
+                                          |
+                                          +-CGIResponser
+                                          |
+                                          +-ProcResponser
+                                          |
+                                          +-CGIApplet(8)------------[All_web_server_user_CGI]
+                                          |
+                                          +-AbstractFileResponser-+-SysFileResponser
+                                                                  |
+                                                                  +-FileResponser
+</pre>
+<Hr>
+<h3>Standalone executables</h3>
+<Table border = 1>
+<TR><TD align = center>File</TD><TD align = center>Description</TD></TR>
+<TR><TD>ws_start</TD><TD>Web server</TD></TR>
+<TR><TD>aws</TD><TD>Abstract web server</TD></TR>
+<TR><TD>canonic</TD><TD>Canon helper</TD></TR>
+</Table>
+<h3>INI files</h3>
+<Table border = 1>
+<TR><TD align = center>File</TD><TD align = center>Description</TD></TR>
+<TR><TD>ws.ini</TD><TD>Web server enviroment</TD></TR>
+<TR><TD>ws_mime</TD><TD>MIME types</TD></TR>
+<TR><TD>ws_restrictions</TD><TD>Web server IP restrictions</TD></TR>
+</Table>
+</BODY>
+</HTML>
+
+
+
+
